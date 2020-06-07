@@ -254,7 +254,10 @@ p{
     margin: 10px 0 0;
 }
 /*--------------------------------body--------------------------------*/
-
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
 /*--------------------------------footer--------------------------------*/
 footer{
     display: flex;
@@ -264,6 +267,9 @@ footer{
     height: 54px;
     margin: 0;
     padding:0;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
     
 }
 footer:hover{
