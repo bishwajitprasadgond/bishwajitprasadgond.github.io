@@ -21,6 +21,45 @@ body{
 }
 
 /*--------------------------------main--------------------------------*/
+/*--------------------------------image--------------------------------*/
+
+.img1{
+    background-image: url(icon/017-cap.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 40%;
+}
+.img2{
+    background-image: url(icon/015-target.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+     margin: 0 0 0 40%;
+}
+.img3{
+    background-image: url(icon/041-sunglasses.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+     margin: 0 0 0 40%;
+}
+.img4{
+    background-image: url(icon/037-laptop.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+     margin: 0 0 0 40%;
+}
+/*--------------------------------image--------------------------------*/
 
 
 /*--------------------------------NAVBAR--------------------------------*/

@@ -88,6 +88,37 @@ ul.topnav li.contact a{
     
         
 }
+/*--------------------------------image--------------------------------*/
+
+.img1{
+    background-image: url(icon/050-house.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 45%;
+}
+.img2{
+    background-image: url(icon/036-email.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+     margin: 0 0 0 45%;
+}
+.img3{
+    background-image: url(icon/009-smartphone.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+     margin: 0 0 0 45%;
+}
+/*--------------------------------image--------------------------------*/
+
 
 /*--------------------------------NAVBAR--------------------------------*/
 
@@ -269,13 +300,22 @@ h4{     font-family: 'Ribeye', cursive;
     color: black; /*color: #666;*/
     text-shadow: 0 1px 2px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.1);
 }
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
 li.card-list{
     text-decoration: none;
     font-family: 'Tenali Ramakrishna', sans-serif;
     font-size: 22px;
     font-weight: 100;
     padding-top: 10px;
-    text-align: 40px 0 0;
+    text-align: center;
     list-style: none;
     text-shadow: 0 1px 2px rgba(0,0,0,0.2),0 1px 2px rgba(0,0,0,0.2)
     

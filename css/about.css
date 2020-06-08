@@ -92,6 +92,37 @@ ul.topnav li.about a{
     color: blue; 
 }
 /*--------------------------------NAVBAR--------------------------------*/
+/*--------------------------------image--------------------------------*/
+
+.img1{
+    background-image: url(icon/026-university.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 45%;
+}
+.img2{
+    background-image: url(icon/029-backpack.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+     margin: 0 0 0 45%;
+}
+.img3{
+    background-image: url(icon/031-chalkboard.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+     margin: 0 0 0 45%;
+}
+/*--------------------------------image--------------------------------*/
+
 
 hr{
    /* background-color:#222f3e;*/
