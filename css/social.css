@@ -10,6 +10,8 @@ body{
     line-height: 1;
     margin: 0;
     background-color: white;
+    width: 100%;
+    height: 1100px;
 }
 /*--------------------------------DEFAULT--------------------------------*/
 
@@ -17,7 +19,7 @@ body{
 
 nav{
     max-width: 100%;
-    min-width: 700px;
+    min-width: 1255px;
     height: 54px;
     margin: 0;
     font-size: 20px;
@@ -148,9 +150,9 @@ hr{
 /*-----------------------------------dp------------------------------------------*/
 .container{
     align-self: center;
-    position: relative;
+    position: static;
     width: 100%;
-    height: 200px;
+    height: 250px;
     padding: 20px 0 20px;
     background: #fff;
     background-position: center center;
@@ -187,11 +189,11 @@ hr{
     width: 70px;
     height:70px;
     background-size: cover;
-    border-radius: 0%;
     /*box-shadow: 0 1px 3px rgba(0,0,0,0.5),0 1px 2px rgba(0,0,0,0.5);/**/
-    float: left;
+    text-align: center;
     shape-outside: margin-box;
-    margin: 10px 10px 10px 20px;
+    margin: 5% 5% 5% 40%;
+    position: relative;
         
 }
 .circle{background-image: url(icon/facebook-drawn-logo.png)}
@@ -202,6 +204,10 @@ hr{
 .circle6{background-image: url(icon/github-draw-logo.png)}
 .circle7{background-image: url(icon/bisquits-logo.png)}
 .circle8{background-image: url(icon/instagram-draw-logo.png)}
+
+#0{
+    width: 100%;
+}
 
 .container2{
     align-self: center;
@@ -233,25 +239,39 @@ h2{
     font-family: 'Ribeye', cursive;
     padding: 0;
     font-size: 20px;
+    text-align: center;
     letter-spacing: 2px;
     text-shadow: 0 1px 2px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.1);
 }
 a{
-    font-family: 'Oregano', cursive;
+    font-family: 'Tenali Ramakrishna', sans-serif;
     text-decoration: none;
     color: black;
+    border: none;
     font-size: 20px;
 }
 a:hover{
     color:crimson;
 }
 
-p{
+p.paragraph{
     font-family: 'Oregano', cursive;
     text-decoration: none;
     color: black;
+    border: none;
     font-size: 20px;
-    margin: 10px 0 0;
+    text-align: center;
+   
+}
+p.intro{
+     max-width: 724px;
+    min-width: 600px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    text-decoration: none;
+    color: black;
+    border: none;
+    font-size: 22px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.1);
 }
 /*--------------------------------body--------------------------------*/
 #wrapper{
@@ -309,3 +329,25 @@ li.card-list{
     
 }
 /*--------------------------------footer--------------------------------*/
+/*--------------------------------click icon--------------------------------*/
+button{
+    background-color: white;
+    margin: 0;
+    padding:0 ;
+    width: 30px;
+    height:30px;
+    background-image: url(icon/mouse-1.png);
+    background-size:cover;
+    border: none;
+    text-align: center;
+    transition: transform .2s;
+}
+button:hover{
+    cursor: pointer;
+    border: none;
+     transform: scale(1.5);
+    ;
+}
+
+
+/*--------------------------------click icon--------------------------------*/
