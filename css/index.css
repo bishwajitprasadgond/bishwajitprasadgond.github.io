@@ -1,0 +1,228 @@
+/*-----------------------------------DEFAULT--------------------------------------*/
+
+*{font-family: 'Josefin Sans', sans-serif;
+    
+}
+nav,header{
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    height: 1000px
+}
+@font-face{
+    font-family:"";
+    src: url("") format('embedded-opentype'),
+    src: url("") format('opentype'),
+}
+/*-----------------------------------NAVBAR--------------------------------------*/
+nav{
+    max-width: 100%;
+    min-width: 700px;
+    height: 54px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+nav ul{
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*box-shadow: 0 1px 2px rgba(0,0,0,0.2),0 1px 2px rgba(0,0,0,0.3);*/
+}
+nav ul li{
+    list-style: none;
+
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.1);
+}
+ul.topnav li{
+    list-style: none;
+    float: right;
+
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 24px;
+    text-align: center;
+    padding: 14px;
+    text-transform: none;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+
+}
+ul.topnav li a:hover{
+    background-color: #fff; /*none*/
+    color: black;
+    text-underline-position: below;
+    cursor: pointer;
+    
+}
+
+ul.topnav li.leftnav{
+    list-style: none;
+    float: right;
+}
+ul.topnav li.leftnav a{
+    display: block;
+    text-decoration: none;
+    min-height: 22px;
+    text-align: center;
+    padding: 14px;
+    text-transform: none;
+    color: white;
+}
+ul.topnav li.leftnav a:hover{
+    background-color: #fff; /*none*/
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transform: scale(0);
+    
+}
+
+ul.topnav li.home a{
+    color: deepskyblue;
+    
+    
+        
+}
+/*-----------------------------------NAVBAR--------------------------------------*/
+
+/*-----------------------------------text--------------------------------------*/
+h2.hi{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    background: transparent;
+    text-align: center;
+     font-family: 'Major Mono Display', monospace;
+    font-weight: 100;
+}
+h2{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 2px;
+    background: transparent;
+    text-align: center;
+    /*font-family: 'Fredericka the Great', cursive;*/
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 100;
+}
+p{
+    text-align: center;
+    color: white;
+}
+p.paragraph{
+    color: white;
+   /* font-family: 'Lovers Quarrel', cursive;*/
+    /*font-family: 'Raleway Dots', cursive;*/
+    width: 100%;
+    line-height: 22px
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Nixie One', cursive;*/
+    font-weight: 100;
+    padding: 2px;
+    margin: 0 0 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3),0 1px 3px rgba(0,0,0,0.3);
+
+}
+p.paragraph1{
+
+    color: white;
+   /* font-family: 'Lovers Quarrel', cursive;*/
+    /*font-family: 'Raleway Dots', cursive;*/
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Nixie One', cursive;*/
+    font-weight: 100;
+    padding: 0;
+    margin: 0 0 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.3),0 1px 3px rgba(0,0,0,0.3);
+
+}
+
+
+
+/*-----------------------------------text--------------------------------------*/
+/*-----------------------------------BODY--------------------------------------*/
+
+body{
+    
+}
+/*-----------------------------------BODY--------------------------------------*/
+
+.container{
+    width:100%;
+    height:400px;
+    display: flex;
+    
+    
+}
+.column{
+    margin: 0;
+   /* box-shadow: 0 1px 3px rgba(0,0,0,0.3),0 1px 2px rgba(0,0,0,0.3);*/
+    background: ;
+    border-radius: 2px;
+    width:100%;
+    height:200px;
+    flex-basis: 50%;
+}
+.card{
+    padding: 15px 25px;
+ 
+}
+
+}
+.card{
+    flex-basis: 50%
+}
+
+/*-----------------------------------FOOTER--------------------------------------*/
+
+
+ 
+   footer{
+    display: flex;
+    background:ghostwhite;
+    background-position: center center;
+    width: 100%;
+    height: 54px;
+    margin: 0;
+    padding:0;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+
+}
+footer:hover{
+    background-color: #fff;
+    color: black;
+    
+}
+h3{ width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 100;
+    padding: 20px;
+    margin: 0 0 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1),0 1px 2px rgba(0,0,0,0.1);
+}
+
+/*-----------------------------------FOOTER--------------------------------------*/
