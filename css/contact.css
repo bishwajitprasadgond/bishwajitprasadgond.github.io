@@ -88,38 +88,39 @@ ul.topnav li.contact a{
     
         
 }
-/*--------------------------------image--------------------------------*/
+/*--------------------------------ICON--------------------------------*/
 
-.img1{
-    background-image: url(icon/050-house.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-    margin: 0 0 0 45%;
+a.logo{margin: 0 0 0 45%;
 }
-.img2{
-    background-image: url(icon/036-email.png);
+p.icon{
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-     margin: 0 0 0 45%;
-}
-.img3{
-    background-image: url(icon/009-smartphone.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-     margin: 0 0 0 45%;
-}
-/*--------------------------------image--------------------------------*/
+    border: none;
+    text-shadow: none;
+    outline: none;
+    border: 0;
 
 
+   
+}
+img{
+    background-color: white;
+    margin: 0;
+    padding:0 ;
+    background-size:cover;
+    border: none;
+    text-align: center;
+    transition: transform .2s;
+    outline: none;
+    border: 0;
+
+}
+img:hover{
+    cursor:none;
+    border: none;
+    transform: scale(1.1);
+    outline: none;
+    border: 0;
+}
 /*--------------------------------NAVBAR--------------------------------*/
 
 hr{

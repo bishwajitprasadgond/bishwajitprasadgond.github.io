@@ -21,45 +21,55 @@ body{
 }
 
 /*--------------------------------main--------------------------------*/
-/*--------------------------------image--------------------------------*/
+/*--------------------------------ICON--------------------------------*/
 
-.img1{
+a.logo{margin: 0 0 0 40%;
+}
+p.icon{
+    text-align: center;
+    border: none;
+    text-shadow: none;
+    outline: none;
+    border: 0;
+
+
+   
+}
+img{
+    background-color: white;
+    margin: 0;
+    padding:0 ;
+    background-size:cover;
+    border: none;
+    text-align: center;
+    transition: transform .2s;
+    outline: none;
+    border: 0;
+
+}
+img:hover{
+    cursor:none;
+    border: none;
+    transform: scale(1.1);
+    outline: none;
+    border: 0;
+
+    
+}
+/*.img1{
     background-image: url(icon/017-cap.png);
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 80px;
-    height: 80px;
-    margin: 0 0 0 40%;
-}
-.img2{
-    background-image: url(icon/015-target.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-     margin: 0 0 0 40%;
-}
-.img3{
-    background-image: url(icon/041-sunglasses.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-     margin: 0 0 0 40%;
-}
-.img4{
-    background-image: url(icon/037-laptop.png);
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-     margin: 0 0 0 40%;
-}
-/*--------------------------------image--------------------------------*/
+    width: 65px;
+    height: 65px;
+    margin: 0;
+    outline: none;
+    border: 0;
+
+   
+}*/
+/*--------------------------------icon--------------------------------*/
 
 
 /*--------------------------------NAVBAR--------------------------------*/
@@ -139,7 +149,7 @@ ul.topnav li.home a{
 /*--------------------------------NAVBAR--------------------------------*/
 
 hr{
-    /*background-color:#222f3e;*/
+    background-color:#222f3e;
     width: 100%;
     border:none;
     height: 1px;
@@ -205,7 +215,7 @@ hr{
     position: relative;
     width: 100%;
     margin: 0 auto;
-    height: 400px;
+    height: 450px;
     padding: 30px;
     background: #fff;
     background-position: center center;
@@ -247,7 +257,6 @@ hr{
 
 p{
     max-width: 724px;
-    min-width: 600px;
     margin: 25px 25px 5px;
     padding: 0;
     text-align: inherit;
