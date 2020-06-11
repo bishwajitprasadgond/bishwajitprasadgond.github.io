@@ -196,14 +196,14 @@ hr{
     position: relative;
         
 }
-.circle{background-image: url(icon/facebook-drawn-logo.png)}
-.circle2{background-image: url(icon/linkedin-draw-logo.png)}
-.circle3{background-image: url(icon/twitter-draw-logo.png)}
-.circle4{background-image: url(icon/vk-draw-logo.png)}
-.circle5{background-image: url(icon/blogger-draw-logo.png)}
-.circle6{background-image: url(icon/github-draw-logo.png)}
-.circle7{background-image: url(icon/bisquits-logo.png)}
-.circle8{background-image: url(icon/instagram-draw-logo.png)}
+.circle{background-image: url(icon/facebook.png)}
+.circle2{background-image: url(icon/linkedin.png)}
+.circle3{background-image: url(icon/twitter.png)}
+.circle4{background-image: url(icon/vkontakte-512.png)}
+.circle5{background-image: url(icon/blogger.png)}
+.circle6{background-image: url(icon/github.png)}
+.circle7{background-image: url(icon/quora.png)}
+.circle8{background-image: url(icon/instagram.png)}
 
 #0{
     width: 100%;
