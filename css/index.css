@@ -3,7 +3,7 @@
 *{font-family: 'Josefin Sans', sans-serif;
     
 }
-nav,header{
+nav{
     display: block;
 }
 body{
@@ -19,6 +19,57 @@ body{
     src: url("") format('opentype'),
 }
 /*-----------------------------------NAVBAR--------------------------------------*/
+/*-----------------------------------Header--------------------------------------*/
+header {
+  position: relative;
+    display: flex;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: 100%;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+/*-----------------------------------Header--------------------------------------*/
 nav{
     max-width: 100%;
     min-width: 700px;
@@ -171,13 +222,13 @@ body{
 /*--------------------------------Ring--------------------------------*/
 .ring{
 position: absolute;
-    top:60%;
+    
     left: 47%;
     transform: translate(-50%.-50%);
     width: 120px;
     height: 120px;
     background: transparent;
-    border: 3px solid #3c3c3c;
+    border: 3px solid black;
     border-radius: 50%;
     text-align: center;
     line-height: 125px;
@@ -310,7 +361,7 @@ span:before{
     padding:0;
     bottom: 0px;
     left: 0px;
-    position: fixed;
+    position: relative;
 
 }
 footer:hover{
